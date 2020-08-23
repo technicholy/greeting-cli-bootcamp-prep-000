@@ -4,4 +4,4 @@ def greeting(name)
 end
 puts "Welcome user, please input your name."
 name = $stdin.gets.strip
-puts greeting(name)
+greeting(name)
